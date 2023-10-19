@@ -23,7 +23,7 @@ export default function Home() {
   const classNavSelected = "bg-[#003057] text-[#fff] border-none";
 
   return (
-    <main className="flex min-h-screen flex-col gap-4 p-5 w-full">
+    <main className="flex min-h-screen flex-col gap-4 p-5 w-full md:w-[500px] lg:w-[500px] items-center justify-center mx-auto">
       <div className={twMerge(`flex w-full h-[40px]`)}>
         <span
           className={twMerge(
