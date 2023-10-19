@@ -10,7 +10,6 @@ import { twMerge } from "tailwind-merge";
 export default function Home() {
   const {
     filterSelected,
-    showNextButton,
     showPreviewButton,
     control,
     trigger,
@@ -59,7 +58,10 @@ export default function Home() {
         render={({ field: { onChange, ...restField }, fieldState }) => (
           <InputInfo
             {...restField}
-            onChange={e => { onChange(e); trigger("infinitive") }}
+            onChange={(e) => {
+              onChange(e);
+              trigger("infinitive");
+            }}
             placeholder="Infinitive"
             subtitle="Infinitive"
             error={fieldState?.error?.message}
@@ -74,7 +76,10 @@ export default function Home() {
         render={({ field: { onChange, ...restField }, fieldState }) => (
           <InputInfo
             {...restField}
-            onChange={e => { onChange(e); trigger("simplePast") }}
+            onChange={(e) => {
+              onChange(e);
+              trigger("simplePast");
+            }}
             placeholder="Simple past"
             subtitle="Simple past"
             error={fieldState?.error?.message}
@@ -88,7 +93,10 @@ export default function Home() {
         render={({ field: { onChange, ...restField }, fieldState }) => (
           <InputInfo
             {...restField}
-            onChange={e => { onChange(e); trigger("pastParticiple") }}
+            onChange={(e) => {
+              onChange(e);
+              trigger("pastParticiple");
+            }}
             placeholder="Past participle"
             subtitle="Past participle"
             error={fieldState?.error?.message}
@@ -96,9 +104,7 @@ export default function Home() {
         )}
       />
       <div className={twMerge("flex flex-col gap-[8px] w-full")}>
-        {showNextButton && (
-          <Button text="Next" btn="primary" onClick={handleNextVerb} />
-        )}
+        <Button text="Next" btn="primary" onClick={handleNextVerb} />
         {showPreviewButton && (
           <Button text="Preview" btn="secondary" onClick={handlePreviewVerb} />
         )}

@@ -25,12 +25,9 @@ type IrregularVerbForm = TIrregularVerb & {
   PAST_PARTICIPLE: string;
 };
 
-const compareProps = (inputed: string | unknown, reference: string | unknown) => {
-    if(!String(inputed).trim()){
-        return true
-    }
-    return String(inputed).trim().toLowerCase() === String(reference).trim().toLowerCase();
-}
+const compareProps = (inputed: string | unknown, reference: string | unknown) =>
+  String(inputed).trim().toLowerCase() ===
+  String(reference).trim().toLowerCase();
 
 const irregularVerbSchema = z
   .object<ToZodObjectSchema<IrregularVerbForm>>({
@@ -45,7 +42,10 @@ const irregularVerbSchema = z
     PAST_PARTICIPLE: z.string(),
   })
   .refine(
-    ({ infinitive, INFINITIVE }) => { console.log(infinitive, INFINITIVE); return compareProps(infinitive, INFINITIVE) },
+    ({ infinitive, INFINITIVE }) => {
+      console.log(infinitive, INFINITIVE);
+      return compareProps(infinitive, INFINITIVE);
+    },
     (arg) => ({ path: ["infinitive"], message: String(arg.INFINITIVE) })
   )
   .refine(
@@ -85,10 +85,6 @@ export default function useIrregularVerbs() {
   const [currentVerbIndex, setCurrentVerbIndex] = useState(0);
   const [filledVerbs, setFilledVerbs] = useState<IrregularVerbForm[]>([]);
 
-  const showNextButton = useMemo(
-    () => currentVerbIndex < irregular_verbs?.length && formState.isValid,
-    [currentVerbIndex, formState.isValid]
-  );
   const showPreviewButton = useMemo(
     () => currentVerbIndex > 0,
     [currentVerbIndex]
@@ -105,17 +101,25 @@ export default function useIrregularVerbs() {
     setCurrentVerbIndex((index) => (index > 0 ? index - 1 : index));
   }, []);
 
-  const handleNextVerb = useCallback(() => {
-    if (formState.isValid) {
-      const currentVerb = getValues();
-      if (!filledVerbs?.some((verb) => verb.id === currentVerb.id)) {
-        setFilledVerbs([...filledVerbs, getValues()]);
-      }
-      setCurrentVerbIndex((index) =>
-        index < irregularVerbsFilterd.length ? index + 1 : index
-      );
+  const handleNextVerb = useCallback(async () => {
+    await trigger();
+    if (!formState.isValid) {
+      return;
     }
-  }, [filledVerbs, irregularVerbsFilterd, formState.isValid, getValues]);
+    const currentVerb = getValues();
+    if (!filledVerbs?.some((verb) => verb.id === currentVerb.id)) {
+      setFilledVerbs([...filledVerbs, getValues()]);
+    }
+    setCurrentVerbIndex((index) =>
+      index < irregularVerbsFilterd.length ? index + 1 : index
+    );
+  }, [
+    trigger,
+    filledVerbs,
+    irregularVerbsFilterd,
+    formState.isValid,
+    getValues,
+  ]);
 
   const handleFielterVerbs = useCallback(
     (filter: "moreUsed" | "all") => setFilterSelected(filter),
@@ -153,7 +157,6 @@ export default function useIrregularVerbs() {
 
   return {
     filterSelected,
-    showNextButton,
     showPreviewButton,
     control,
     formState,
@@ -162,6 +165,6 @@ export default function useIrregularVerbs() {
     handleNextVerb,
     handlePreviewVerb,
     handleFielterVerbs,
-    trigger
+    trigger,
   };
 }
