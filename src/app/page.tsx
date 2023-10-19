@@ -48,7 +48,7 @@ export default function Home() {
         control={control}
         name="verb"
         render={({ field }) => (
-          <InputInfo placeholder="Verb" subtitle="Verb" readOnly {...field} />
+          <InputInfo placeholder="Verb" subtitle="Verb" readOnly {...field} disabled/>
         )}
       />
 
