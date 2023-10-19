@@ -3,20 +3,48 @@
 import Button from "@verbs/components/Button";
 import InputInfo from "@verbs/components/InputInfo";
 import useIrregularVerbs from "@verbs/hooks/useIrregularVerbs";
+import { useState } from "react";
 import { Controller } from "react-hook-form";
 import { twMerge } from "tailwind-merge";
 
 export default function Home() {
   const {
+    filterSelected,
     showNextButton,
     showPreviewButton,
     control,
+    trigger,
     handleNextVerb,
     handlePreviewVerb,
+    handleFielterVerbs,
   } = useIrregularVerbs();
 
+  const navClassName =
+    "w-[50%] flex flex-col justify-center items-center cursor-pointer text-[14px] border-[2px] border-[#ccc]";
+  const classNavSelected = "bg-[#003057] text-[#fff] border-none";
+
   return (
-    <main className="flex min-h-screen flex-col items-center gap-4 p-10 w-full">
+    <main className="flex min-h-screen flex-col gap-4 p-10 w-full">
+      <div className={twMerge(`flex w-[230px] h-[40px]`)}>
+        <span
+          className={twMerge(
+            `${navClassName} ${
+              filterSelected === "moreUsed" && classNavSelected
+            }`
+          )}
+          onClick={() => handleFielterVerbs("moreUsed")}
+        >
+          more used
+        </span>
+        <span
+          className={twMerge(
+            `${navClassName} ${filterSelected === "all" && classNavSelected}`
+          )}
+          onClick={() => handleFielterVerbs("all")}
+        >
+          all
+        </span>
+      </div>
       <Controller
         control={control}
         name="verb"
@@ -28,13 +56,14 @@ export default function Home() {
       <Controller
         control={control}
         name="infinitive"
-        render={({ field, fieldState }) => (
+        render={({ field: { onChange, ...restField }, fieldState }) => (
           <InputInfo
+            {...restField}
+            onChange={e => { onChange(e); trigger("infinitive") }}
             placeholder="Infinitive"
             subtitle="Infinitive"
             error={fieldState?.error?.message}
             valid={!fieldState?.invalid}
-            {...field}
           />
         )}
       />
@@ -42,12 +71,13 @@ export default function Home() {
       <Controller
         control={control}
         name="simplePast"
-        render={({ field, fieldState }) => (
+        render={({ field: { onChange, ...restField }, fieldState }) => (
           <InputInfo
+            {...restField}
+            onChange={e => { onChange(e); trigger("simplePast") }}
             placeholder="Simple past"
             subtitle="Simple past"
             error={fieldState?.error?.message}
-            {...field}
           />
         )}
       />
@@ -55,12 +85,13 @@ export default function Home() {
       <Controller
         control={control}
         name="pastParticiple"
-        render={({ field, fieldState }) => (
+        render={({ field: { onChange, ...restField }, fieldState }) => (
           <InputInfo
+            {...restField}
+            onChange={e => { onChange(e); trigger("pastParticiple") }}
             placeholder="Past participle"
             subtitle="Past participle"
             error={fieldState?.error?.message}
-            {...field}
           />
         )}
       />
