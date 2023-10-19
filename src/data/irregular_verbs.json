@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "de67996e",
+    "verb": "erguer, levantar",
+    "infinitive": "arise",
+    "simplePast": "arose",
+    "pastParticiple": "arisen"
+  },
+  {
+    "id": "14b1a732",
+    "verb": "acordar, despertar",
+    "infinitive": "awake",
+    "simplePast": "awoke",
+    "pastParticiple": "awoken"
+  },
+  {
+    "id": "384e2fe5",
+    "verb": "ser, estar, ficar",
+    "infinitive": "be",
+    "simplePast": "was were",
+    "pastParticiple": "been"
+  },
+  {
+    "id": "1496ea70",
+    "verb": "suportar, aguentar",
+    "infinitive": "bear",
+    "simplePast": "bore",
+    "pastParticiple": "borne"
+  },
+  {
+    "id": "e0c77198",
+    "verb": "bater, espancar, superar, vibrar, palpitar",
+    "infinitive": "beat",
+    "simplePast": "beat",
+    "pastParticiple": "beaten"
+  },
+  {
+    "id": "4d1ca772",
+    "verb": "tornar-se",
+    "infinitive": "become",
+    "simplePast": "became",
+    "pastParticiple": "become"
+  },
+  {
+    "id": "23adb51c",
+    "verb": "começar, iniciar",
+    "infinitive": "begin",
+    "simplePast": "began",
+    "pastParticiple": "begun"
+  },
+  {
+    "id": "a0a6af9c",
+    "verb": "curvar, entortar, franzir, dirigir, desistir",
+    "infinitive": "bend",
+    "simplePast": "bent",
+    "pastParticiple": "bent"
+  },
+  {
+    "id": "91f53a25",
+    "verb": "apostar",
+    "infinitive": "bet",
+    "simplePast": "bet",
+    "pastParticiple": "bet"
+  },
+  {
+    "id": "5175ccc0",
+    "verb": "oferecer, convidar, ordenar, desejar, leiloar",
+    "infinitive": "bid",
+    "simplePast": "bade",
+    "pastParticiple": "bidden"
+  },
+  {
+    "id": "1ed5a3bc",
+    "verb": "atar, amarrar, obrigar",
+    "infinitive": "bind",
+    "simplePast": "bound",
+    "pastParticiple": "bound"
+  },
+  {
+    "id": "33bfe2f8",
+    "verb": "morder, engolir a isca",
+    "infinitive": "bite",
+    "simplePast": "bit",
+    "pastParticiple": "bitten"
+  },
+  {
+    "id": "f9444ba8",
+    "verb": "sangrar, perder sangue",
+    "infinitive": "bleed",
+    "simplePast": "bled",
+    "pastParticiple": "bled"
+  },
+  {
+    "id": "00383795",
+    "verb": "soprar, assobiar, fazer soar",
+    "infinitive": "blow",
+    "simplePast": "blew",
+    "pastParticiple": "blown"
+  },
+  {
+    "id": "52d18157",
+    "verb": "quebrar, romper, violar",
+    "infinitive": "break",
+    "simplePast": "broke",
+    "pastParticiple": "broken"
+  },
+  {
+    "id": "eb49bd73",
+    "verb": "procriar, gerar, fazer criação, educar, ensinar",
+    "infinitive": "breed",
+    "simplePast": "bred",
+    "pastParticiple": "bred"
+  },
+  {
+    "id": "da4c00c7",
+    "verb": "trazer, servir, causar, executar, induzir",
+    "infinitive": "bring",
+    "simplePast": "brought",
+    "pastParticiple": "brought"
+  },
+  {
+    "id": "ca5067f6",
+    "verb": "construir, edificar, fabricar",
+    "infinitive": "build",
+    "simplePast": "built",
+    "pastParticiple": "built"
+  },
+  {
+    "id": "2c144278",
+    "verb": "queimar, incendiar, carbonizar",
+    "infinitive": "burn",
+    "simplePast": "burnt",
+    "pastParticiple": "burnt"
+  },
+  {
+    "id": "a165188e",
+    "verb": "arrebentar, explodir, brotar, exclamar",
+    "infinitive": "burst",
+    "simplePast": "burst",
+    "pastParticiple": "burst"
+  },
+  {
+    "id": "4852458a",
+    "verb": "comprar",
+    "infinitive": "buy",
+    "simplePast": "bought",
+    "pastParticiple": "bought"
+  },
+  {
+    "id": "25545598",
+    "verb": "arremessar, jogar, derrubar, moldar",
+    "infinitive": "cast",
+    "simplePast": "cast",
+    "pastParticiple": "cast"
+  },
+  {
+    "id": "9cebefe3",
+    "verb": "pegar, capturar, entender, adquirir",
+    "infinitive": "catch",
+    "simplePast": "caught",
+    "pastParticiple": "caught"
+  },
+  {
+    "id": "cbdd8ee4",
+    "verb": "escolher, selecionar, preferir",
+    "infinitive": "choose",
+    "simplePast": "chose",
+    "pastParticiple": "chosen"
+  },
+  {
+    "id": "b9b4b1dd",
+    "verb": "pegar-se, unir-se, aderir",
+    "infinitive": "cling",
+    "simplePast": "clung",
+    "pastParticiple": "clung"
+  },
+  {
+    "id": "91a1cbc7",
+    "verb": "vestir, cobrir",
+    "infinitive": "clothe",
+    "simplePast": "clothed",
+    "pastParticiple": "clothed"
+  },
+  {
+    "id": "4c926cc9",
+    "verb": "vir, chegar",
+    "infinitive": "come",
+    "simplePast": "came",
+    "pastParticiple": "come"
+  },
+  {
+    "id": "d489ea13",
+    "verb": "custar",
+    "infinitive": "cost",
+    "simplePast": "cost",
+    "pastParticiple": "cost"
+  },
+  {
+    "id": "aaec6e65",
+    "verb": "engatinhar, arrastar-se no chão, andar de rasto",
+    "infinitive": "creep",
+    "simplePast": "crept",
+    "pastParticiple": "crept"
+  },
+  {
+    "id": "78cd2a0d",
+    "verb": "cacarejar",
+    "infinitive": "crow",
+    "simplePast": "crew",
+    "pastParticiple": "crowed"
+  },
+  {
+    "id": "f0f4e445",
+    "verb": "cortar, partir, reduzir, recortar, castrar",
+    "infinitive": "cut",
+    "simplePast": "cut",
+    "pastParticiple": "cut"
+  },
+  {
+    "id": "d83b94a0",
+    "verb": "dar, distribuir, repartir, dividir, espalhar, negociar",
+    "infinitive": "deal",
+    "simplePast": "dealt",
+    "pastParticiple": "dealt"
+  },
+  {
+    "id": "4f7feccf",
+    "verb": "cavar, escavar",
+    "infinitive": "dig",
+    "simplePast": "dug",
+    "pastParticiple": "dug"
+  },
+  {
+    "id": "393eef5c",
+    "verb": "fazer",
+    "infinitive": "do",
+    "simplePast": "did",
+    "pastParticiple": "done"
+  },
+  {
+    "id": "09561efe",
+    "verb": "desenhar, extrair, sair",
+    "infinitive": "draw",
+    "simplePast": "drew",
+    "pastParticiple": "drawn"
+  },
+  {
+    "id": "ea3fb5b4",
+    "verb": "beber",
+    "infinitive": "drink",
+    "simplePast": "drank",
+    "pastParticiple": "drunk"
+  },
+  {
+    "id": "7783e729",
+    "verb": "dirigir, guiar",
+    "infinitive": "drive",
+    "simplePast": "drove",
+    "pastParticiple": "driven"
+  },
+  {
+    "id": "f458d6d3",
+    "verb": "residir, ficar por um tempo, enfatizar, insistir em",
+    "infinitive": "dwell",
+    "simplePast": "dwelt",
+    "pastParticiple": "dwelt"
+  },
+  {
+    "id": "1df2173c",
+    "verb": "comer",
+    "infinitive": "eat",
+    "simplePast": "ate",
+    "pastParticiple": "eaten"
+  },
+  {
+    "id": "7ec7552e",
+    "verb": "cair, desaguar, abater-se, decrescer, diminuir",
+    "infinitive": "fall",
+    "simplePast": "fell",
+    "pastParticiple": "fallen"
+  },
+  {
+    "id": "88f9bbd7",
+    "verb": "alimentar, nutrir",
+    "infinitive": "feed",
+    "simplePast": "fed",
+    "pastParticiple": "fed"
+  },
+  {
+    "id": "0638fbe0",
+    "verb": "sentir, notar",
+    "infinitive": "feel",
+    "simplePast": "felt",
+    "pastParticiple": "felt"
+  },
+  {
+    "id": "7a87ebe8",
+    "verb": "lutar, brigar",
+    "infinitive": "fight",
+    "simplePast": "fought",
+    "pastParticiple": "fought"
+  },
+  {
+    "id": "9d00c3c3",
+    "verb": "achar, encontrar",
+    "infinitive": "find",
+    "simplePast": "found",
+    "pastParticiple": "found"
+  },
+  {
+    "id": "45ab7144",
+    "verb": "fugir, escapar, evitar, correr",
+    "infinitive": "flee",
+    "simplePast": "fled",
+    "pastParticiple": "fled"
+  },
+  {
+    "id": "59bec702",
+    "verb": "lançar, arremessar",
+    "infinitive": "fling",
+    "simplePast": "flung",
+    "pastParticiple": "flung"
+  },
+  {
+    "id": "bc0f4540",
+    "verb": "voar",
+    "infinitive": "fly",
+    "simplePast": "flew",
+    "pastParticiple": "flown"
+  },
+  {
+    "id": "3a76d1bf",
+    "verb": "proibir",
+    "infinitive": "forbid",
+    "simplePast": "forbade",
+    "pastParticiple": "forbidden"
+  },
+  {
+    "id": "ca95a299",
+    "verb": "esquecer(-se)",
+    "infinitive": "forget",
+    "simplePast": "forgot",
+    "pastParticiple": "forgotten"
+  },
+  {
+    "id": "ea347235",
+    "verb": "perdoar",
+    "infinitive": "forgive",
+    "simplePast": "forgave",
+    "pastParticiple": "forgiven"
+  },
+  {
+    "id": "a1fcb302",
+    "verb": "abandonar, desertar, largar; abrir mão de",
+    "infinitive": "forsake",
+    "simplePast": "forsook",
+    "pastParticiple": "forsaken"
+  },
+  {
+    "id": "2f7bc6c9",
+    "verb": "congelar, gelar",
+    "infinitive": "freeze",
+    "simplePast": "froze",
+    "pastParticiple": "frozen"
+  },
+  {
+    "id": "2bd1fb4a",
+    "verb": "obter, conseguir",
+    "infinitive": "get",
+    "simplePast": "got",
+    "pastParticiple": "got"
+  },
+  {
+    "id": "27bcdc46",
+    "verb": "dar",
+    "infinitive": "give",
+    "simplePast": "gave",
+    "pastParticiple": "given"
+  },
+  {
+    "id": "0792dc17",
+    "verb": "ir",
+    "infinitive": "go",
+    "simplePast": "went",
+    "pastParticiple": "gone"
+  },
+  {
+    "id": "7a1d44b4",
+    "verb": "crescer, florescer, germinar",
+    "infinitive": "grow",
+    "simplePast": "grew",
+    "pastParticiple": "grown"
+  },
+  {
+    "id": "b9a4b988",
+    "verb": "pendurar, suspender",
+    "infinitive": "hang",
+    "simplePast": "hung",
+    "pastParticiple": "hung"
+  },
+  {
+    "id": "6e6d735b",
+    "verb": "ter, possuir",
+    "infinitive": "have",
+    "simplePast": "had",
+    "pastParticiple": "had"
+  },
+  {
+    "id": "d17ef40d",
+    "verb": "ouvir, escutar, ter notícias",
+    "infinitive": "hear",
+    "simplePast": "heard",
+    "pastParticiple": "heard"
+  },
+  {
+    "id": "be9a8603",
+    "verb": "puxar",
+    "infinitive": "heave",
+    "simplePast": "hove",
+    "pastParticiple": "hove"
+  },
+  {
+    "id": "7dfcea24",
+    "verb": "reduzir, talhar",
+    "infinitive": "hew",
+    "simplePast": "hewed",
+    "pastParticiple": "hewn"
+  },
+  {
+    "id": "401c0306",
+    "verb": "esconder(-se), ocultar",
+    "infinitive": "hide",
+    "simplePast": "hid",
+    "pastParticiple": "hidden"
+  },
+  {
+    "id": "06d4a676",
+    "verb": "bater, chocar-se",
+    "infinitive": "hit",
+    "simplePast": "hit",
+    "pastParticiple": "hit"
+  },
+  {
+    "id": "1af748b8",
+    "verb": "segurar, agarrar",
+    "infinitive": "hold",
+    "simplePast": "held",
+    "pastParticiple": "held"
+  },
+  {
+    "id": "4478cba2",
+    "verb": "ferir(-se), machucar",
+    "infinitive": "hurt",
+    "simplePast": "hurt",
+    "pastParticiple": "hurt"
+  },
+  {
+    "id": "0e63a476",
+    "verb": "manter, conservar, preservar",
+    "infinitive": "keep",
+    "simplePast": "kept",
+    "pastParticiple": "kept"
+  },
+  {
+    "id": "597ac826",
+    "verb": "ajoelhar-se",
+    "infinitive": "kneel",
+    "simplePast": "knelt",
+    "pastParticiple": "knelt"
+  },
+  {
+    "id": "6706d660",
+    "verb": "tricotar",
+    "infinitive": "knit",
+    "simplePast": "knit",
+    "pastParticiple": "knit"
+  },
+  {
+    "id": "6475d0b4",
+    "verb": "saber, conhecer",
+    "infinitive": "know",
+    "simplePast": "knew",
+    "pastParticiple": "known"
+  },
+  {
+    "id": "1bdbe031",
+    "verb": "pôr, colocar, derrubar, deitar",
+    "infinitive": "lay",
+    "simplePast": "laid",
+    "pastParticiple": "laid"
+  },
+  {
+    "id": "08e3d0ee",
+    "verb": "conduzir, liderar, dirigir, comandar",
+    "infinitive": "lead",
+    "simplePast": "led",
+    "pastParticiple": "led"
+  },
+  {
+    "id": "ff07abd8",
+    "verb": "saltar, pular, transportar, cobrir (os animais)",
+    "infinitive": "leap",
+    "simplePast": "leapt",
+    "pastParticiple": "leapt"
+  },
+  {
+    "id": "c28c066a",
+    "verb": "aprender, ficar sabendo",
+    "infinitive": "learn",
+    "simplePast": "learnt",
+    "pastParticiple": "learnt"
+  },
+  {
+    "id": "064f3677",
+    "verb": "partir, deixar, sair",
+    "infinitive": "leave",
+    "simplePast": "left",
+    "pastParticiple": "left"
+  },
+  {
+    "id": "e1a0684a",
+    "verb": "emprestar",
+    "infinitive": "lend",
+    "simplePast": "lent",
+    "pastParticiple": "lent"
+  },
+  {
+    "id": "4fd4a350",
+    "verb": "permitir, deixar",
+    "infinitive": "let",
+    "simplePast": "let",
+    "pastParticiple": "let"
+  },
+  {
+    "id": "a90c700e",
+    "verb": "deitar, jazer",
+    "infinitive": "lie",
+    "simplePast": "lay",
+    "pastParticiple": "lain"
+  },
+  {
+    "id": "b7594aa3",
+    "verb": "acender, iluminar",
+    "infinitive": "light",
+    "simplePast": "lit",
+    "pastParticiple": "lit"
+  },
+  {
+    "id": "75ddf0d7",
+    "verb": "perder",
+    "infinitive": "lose",
+    "simplePast": "lost",
+    "pastParticiple": "lost"
+  },
+  {
+    "id": "d87bc035",
+    "verb": "fazer, criar, elaborar",
+    "infinitive": "make",
+    "simplePast": "made",
+    "pastParticiple": "made"
+  },
+  {
+    "id": "64fd8192",
+    "verb": "significar, querer dizer",
+    "infinitive": "mean",
+    "simplePast": "meant",
+    "pastParticiple": "meant"
+  },
+  {
+    "id": "b1fcac1a",
+    "verb": "encontrar(-se), reunir(-se)",
+    "infinitive": "meet",
+    "simplePast": "met",
+    "pastParticiple": "met"
+  },
+  {
+    "id": "2c5fcff2",
+    "verb": "participar",
+    "infinitive": "partake",
+    "simplePast": "partook",
+    "pastParticiple": "partaken"
+  },
+  {
+    "id": "3a18634f",
+    "verb": "pagar",
+    "infinitive": "pay",
+    "simplePast": "paid",
+    "pastParticiple": "paid"
+  },
+  {
+    "id": "acfa0975",
+    "verb": "pôr, colocar",
+    "infinitive": "put",
+    "simplePast": "put",
+    "pastParticiple": "put"
+  },
+  {
+    "id": "f9f758de",
+    "verb": "desistir, abandonar",
+    "infinitive": "quit",
+    "simplePast": "quit",
+    "pastParticiple": "quit"
+  },
+  {
+    "id": "8eef03b7",
+    "verb": "ler, interpretar",
+    "infinitive": "read",
+    "simplePast": "read",
+    "pastParticiple": "read"
+  },
+  {
+    "id": "6eccf033",
+    "verb": "cavalgar, andar de bibicleta ou carro",
+    "infinitive": "ride",
+    "simplePast": "rode",
+    "pastParticiple": "ridden"
+  },
+  {
+    "id": "cf3f165e",
+    "verb": "soar, tocar (campainha, telefone)",
+    "infinitive": "ring",
+    "simplePast": "rang",
+    "pastParticiple": "rung"
+  },
+  {
+    "id": "f5b4b8a8",
+    "verb": "erguer-se, levantar-se",
+    "infinitive": "rise",
+    "simplePast": "rose",
+    "pastParticiple": "risen"
+  },
+  {
+    "id": "58ef1cc4",
+    "verb": "correr, apressar-se",
+    "infinitive": "run",
+    "simplePast": "ran",
+    "pastParticiple": "run"
+  },
+  {
+    "id": "588845eb",
+    "verb": "serrar",
+    "infinitive": "saw",
+    "simplePast": "sawed",
+    "pastParticiple": "sawn"
+  },
+  {
+    "id": "bccdcb79",
+    "verb": "dizer, afirmar, declarar",
+    "infinitive": "say",
+    "simplePast": "said",
+    "pastParticiple": "said"
+  },
+  {
+    "id": "5c6a4770",
+    "verb": "ver, perceber",
+    "infinitive": "see",
+    "simplePast": "saw",
+    "pastParticiple": "seen"
+  },
+  {
+    "id": "c2e30e44",
+    "verb": "procurar, pedir, almejar",
+    "infinitive": "seek",
+    "simplePast": "sought",
+    "pastParticiple": "sought"
+  },
+  {
+    "id": "b41abe55",
+    "verb": "vender",
+    "infinitive": "sell",
+    "simplePast": "sold",
+    "pastParticiple": "sold"
+  },
+  {
+    "id": "3078c68d",
+    "verb": "enviar, mandar",
+    "infinitive": "send",
+    "simplePast": "sent",
+    "pastParticiple": "sent"
+  },
+  {
+    "id": "d6a6eea5",
+    "verb": "pôr, dispor, ajustar",
+    "infinitive": "set",
+    "simplePast": "set",
+    "pastParticiple": "set"
+  },
+  {
+    "id": "328743a8",
+    "verb": "costurar, coser",
+    "infinitive": "sew",
+    "simplePast": "sewed",
+    "pastParticiple": "sewn"
+  },
+  {
+    "id": "35a13fa3",
+    "verb": "sacudir, agitar, apertar a mão (em cumprimento)",
+    "infinitive": "shake",
+    "simplePast": "shook",
+    "pastParticiple": "shaken"
+  },
+  {
+    "id": "bf0e4570",
+    "verb": "derramar, vazar",
+    "infinitive": "shed",
+    "simplePast": "shed",
+    "pastParticiple": "shed"
+  },
+  {
+    "id": "4272c791",
+    "verb": "brilhar",
+    "infinitive": "shine",
+    "simplePast": "shone",
+    "pastParticiple": "shone"
+  },
+  {
+    "id": "2d40b5a0",
+    "verb": "atirar, ferir com tiro",
+    "infinitive": "shoot",
+    "simplePast": "shot",
+    "pastParticiple": "shot"
+  },
+  {
+    "id": "783d0a2e",
+    "verb": "mostrar, apresentar",
+    "infinitive": "show",
+    "simplePast": "showed",
+    "pastParticiple": "shown"
+  },
+  {
+    "id": "85d9f9a1",
+    "verb": "cortar em pedaços, picar, retalhar, rasgar",
+    "infinitive": "shred",
+    "simplePast": "shred",
+    "pastParticiple": "shred"
+  },
+  {
+    "id": "c4338673",
+    "verb": "contrair, encolher, recuar",
+    "infinitive": "shrink",
+    "simplePast": "shrank",
+    "pastParticiple": "shrunk"
+  },
+  {
+    "id": "a5170dc9",
+    "verb": "fechar, cerrar; tampar",
+    "infinitive": "shut",
+    "simplePast": "shut",
+    "pastParticiple": "shut"
+  },
+  {
+    "id": "ecf8831b",
+    "verb": "cantar",
+    "infinitive": "sing",
+    "simplePast": "sang",
+    "pastParticiple": "sung"
+  },
+  {
+    "id": "c0da5712",
+    "verb": "afundar",
+    "infinitive": "sink",
+    "simplePast": "sank",
+    "pastParticiple": "sunk"
+  },
+  {
+    "id": "d2dc47fd",
+    "verb": "sentar(-se)",
+    "infinitive": "sit",
+    "simplePast": "sat",
+    "pastParticiple": "sat"
+  },
+  {
+    "id": "e8b35ff5",
+    "verb": "matar, assassinar, destruir, arruinar",
+    "infinitive": "slay",
+    "simplePast": "slew",
+    "pastParticiple": "slain"
+  },
+  {
+    "id": "1c806c4d",
+    "verb": "dormir",
+    "infinitive": "sleep",
+    "simplePast": "slept",
+    "pastParticiple": "slept"
+  },
+  {
+    "id": "973442c6",
+    "verb": "escorregar, deslizar",
+    "infinitive": "slide",
+    "simplePast": "slid",
+    "pastParticiple": "slid"
+  },
+  {
+    "id": "8ca19c0e",
+    "verb": "atirar, arremessar",
+    "infinitive": "sling",
+    "simplePast": "slung",
+    "pastParticiple": "slung"
+  },
+  {
+    "id": "7a1a14c3",
+    "verb": "cheirar",
+    "infinitive": "smell",
+    "simplePast": "smelt",
+    "pastParticiple": "smelt"
+  },
+  {
+    "id": "f8b7e21c",
+    "verb": "bater, espancar",
+    "infinitive": "smite",
+    "simplePast": "smote",
+    "pastParticiple": "smitten"
+  },
+  {
+    "id": "bef17078",
+    "verb": "semear",
+    "infinitive": "sow",
+    "simplePast": "sowed",
+    "pastParticiple": "sown"
+  },
+  {
+    "id": "d3ca932b",
+    "verb": "falar",
+    "infinitive": "speak",
+    "simplePast": "spoke",
+    "pastParticiple": "spoken"
+  },
+  {
+    "id": "33ee5cbd",
+    "verb": "soletrar",
+    "infinitive": "spell",
+    "simplePast": "spelt",
+    "pastParticiple": "spelt"
+  },
+  {
+    "id": "6f32fd1e",
+    "verb": "gastar (dinheiro), passar (tempo)",
+    "infinitive": "spend",
+    "simplePast": "spent",
+    "pastParticiple": "spent"
+  },
+  {
+    "id": "4f34ee27",
+    "verb": "derramar",
+    "infinitive": "spill",
+    "simplePast": "spilt",
+    "pastParticiple": "spilt"
+  },
+  {
+    "id": "c30db7c6",
+    "verb": "girar",
+    "infinitive": "spin",
+    "simplePast": "spun",
+    "pastParticiple": "spun"
+  },
+  {
+    "id": "28840f49",
+    "verb": "cuspir",
+    "infinitive": "spit",
+    "simplePast": "spat",
+    "pastParticiple": "spit"
+  },
+  {
+    "id": "bf7d38a9",
+    "verb": "estragar, destruir",
+    "infinitive": "spoil",
+    "simplePast": "spoilt",
+    "pastParticiple": "spoilt"
+  },
+  {
+    "id": "cc9432b6",
+    "verb": "espalhar, estender",
+    "infinitive": "spread",
+    "simplePast": "spread",
+    "pastParticiple": "spread"
+  },
+  {
+    "id": "138438c0",
+    "verb": "saltar, lançar-se, libertar-se",
+    "infinitive": "spring",
+    "simplePast": "sprang",
+    "pastParticiple": "sprung"
+  },
+  {
+    "id": "3aa599cb",
+    "verb": "ficar ou pôr-se de pé",
+    "infinitive": "stand",
+    "simplePast": "stood",
+    "pastParticiple": "stood"
+  },
+  {
+    "id": "53c8d4f5",
+    "verb": "roubar, furtar",
+    "infinitive": "steal",
+    "simplePast": "stole",
+    "pastParticiple": "stolen"
+  },
+  {
+    "id": "a148aa22",
+    "verb": "cravar, fincar",
+    "infinitive": "stick",
+    "simplePast": "stuck",
+    "pastParticiple": "stuck"
+  },
+  {
+    "id": "104f4486",
+    "verb": "picar, ferroar",
+    "infinitive": "sting",
+    "simplePast": "stung",
+    "pastParticiple": "stung"
+  },
+  {
+    "id": "85003068",
+    "verb": "feder; enojar",
+    "infinitive": "stink",
+    "simplePast": "stank",
+    "pastParticiple": "stunk"
+  },
+  {
+    "id": "1dcbed11",
+    "verb": "espalhar, polvilhar, aspergir",
+    "infinitive": "strew",
+    "simplePast": "strewed",
+    "pastParticiple": "strewn"
+  },
+  {
+    "id": "2ab7bf64",
+    "verb": "caminhar, cavalgar",
+    "infinitive": "stride",
+    "simplePast": "strode",
+    "pastParticiple": "stridden"
+  },
+  {
+    "id": "8dc53375",
+    "verb": "bater, golpear",
+    "infinitive": "strike",
+    "simplePast": "struck",
+    "pastParticiple": "struck"
+  },
+  {
+    "id": "42cc8fcb",
+    "verb": "amarrar, pendurar, enfiar, esticar",
+    "infinitive": "string",
+    "simplePast": "strung",
+    "pastParticiple": "strung"
+  },
+  {
+    "id": "96fb6ab3",
+    "verb": "aspirar, tentar, esforçar-se",
+    "infinitive": "strive",
+    "simplePast": "strove",
+    "pastParticiple": "striven"
+  },
+  {
+    "id": "ecc05271",
+    "verb": "jurar",
+    "infinitive": "swear",
+    "simplePast": "swore",
+    "pastParticiple": "sworn"
+  },
+  {
+    "id": "6f235a2a",
+    "verb": "suar",
+    "infinitive": "sweat",
+    "simplePast": "sweat",
+    "pastParticiple": "sweat"
+  },
+  {
+    "id": "b33b4c61",
+    "verb": "varrer",
+    "infinitive": "sweep",
+    "simplePast": "swept",
+    "pastParticiple": "swept"
+  },
+  {
+    "id": "4eb5d125",
+    "verb": "inchar-se, crescer, encher (os pneus)",
+    "infinitive": "swell",
+    "simplePast": "swelled",
+    "pastParticiple": "swollen"
+  },
+  {
+    "id": "6e291127",
+    "verb": "nadar",
+    "infinitive": "swim",
+    "simplePast": "swam",
+    "pastParticiple": "swum"
+  },
+  {
+    "id": "1b60fc77",
+    "verb": "balançar",
+    "infinitive": "swing",
+    "simplePast": "swung",
+    "pastParticiple": "swung"
+  },
+  {
+    "id": "50406a4a",
+    "verb": "tomar, pegar, levar",
+    "infinitive": "take",
+    "simplePast": "took",
+    "pastParticiple": "taken"
+  },
+  {
+    "id": "cb408100",
+    "verb": "ensinar",
+    "infinitive": "teach",
+    "simplePast": "taught",
+    "pastParticiple": "taught"
+  },
+  {
+    "id": "7dd607cd",
+    "verb": "chorar, lacrimejar; rasgar, rachar",
+    "infinitive": "tear",
+    "simplePast": "tore",
+    "pastParticiple": "torn"
+  },
+  {
+    "id": "ee75a8b1",
+    "verb": "dizer, contar",
+    "infinitive": "tell",
+    "simplePast": "told",
+    "pastParticiple": "told"
+  },
+  {
+    "id": "9daaa21c",
+    "verb": "pensar, achar",
+    "infinitive": "think",
+    "simplePast": "thought",
+    "pastParticiple": "thought"
+  },
+  {
+    "id": "95314fcd",
+    "verb": "ter sucesso",
+    "infinitive": "thrive",
+    "simplePast": "throve",
+    "pastParticiple": "thriven"
+  },
+  {
+    "id": "1754d63f",
+    "verb": "lançar, atirar",
+    "infinitive": "throw",
+    "simplePast": "threw",
+    "pastParticiple": "thrown"
+  },
+  {
+    "id": "bb527072",
+    "verb": "empurrar",
+    "infinitive": "thrust",
+    "simplePast": "thrust",
+    "pastParticiple": "thrust"
+  },
+  {
+    "id": "0840b148",
+    "verb": "pisar, andar, pôr os pés",
+    "infinitive": "tread",
+    "simplePast": "trod",
+    "pastParticiple": "trodden"
+  },
+  {
+    "id": "07538b68",
+    "verb": "entender, compreender",
+    "infinitive": "understand",
+    "simplePast": "understood",
+    "pastParticiple": "understood"
+  },
+  {
+    "id": "1ddd7425",
+    "verb": "acordar",
+    "infinitive": "wake",
+    "simplePast": "woke",
+    "pastParticiple": "woken"
+  },
+  {
+    "id": "d6304599",
+    "verb": "vestir, usar, trajar",
+    "infinitive": "wear",
+    "simplePast": "wore",
+    "pastParticiple": "worn"
+  },
+  {
+    "id": "59b9fd24",
+    "verb": "tecer, trançar",
+    "infinitive": "weave",
+    "simplePast": "wove",
+    "pastParticiple": "woven"
+  },
+  {
+    "id": "655e85d5",
+    "verb": "chorar",
+    "infinitive": "weep",
+    "simplePast": "wept",
+    "pastParticiple": "wept"
+  },
+  {
+    "id": "a0e78338",
+    "verb": "molhar, umedecer",
+    "infinitive": "wet",
+    "simplePast": "wet",
+    "pastParticiple": "wet"
+  },
+  {
+    "id": "52b58d2e",
+    "verb": "ganhar, vencer",
+    "infinitive": "win",
+    "simplePast": "won",
+    "pastParticiple": "won"
+  },
+  {
+    "id": "8ec680f9",
+    "verb": "girar, enrolar-se",
+    "infinitive": "wind",
+    "simplePast": "wound",
+    "pastParticiple": "wound"
+  },
+  {
+    "id": "e1bb9e7b",
+    "verb": "torcer",
+    "infinitive": "wring",
+    "simplePast": "wrung",
+    "pastParticiple": "wrung"
+  }
+]
