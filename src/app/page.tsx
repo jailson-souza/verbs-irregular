@@ -10,7 +10,6 @@ export default function Home() {
   const {
     filterSelected,
     showPreviewButton,
-    formState,
     control,
     handleNextVerb,
     handlePreviewVerb,
