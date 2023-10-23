@@ -51,6 +51,7 @@ function InputInfo(
           w-full
           h-full
           font-bold
+          disabled:bg-[#eee]
           ${error && "text-[#f00]"}
           ${readOnly && "text-[#003057]"}
           `)}

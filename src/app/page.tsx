@@ -3,7 +3,6 @@
 import Button from "@verbs/components/Button";
 import InputInfo from "@verbs/components/InputInfo";
 import useIrregularVerbs from "@verbs/hooks/useIrregularVerbs";
-import { useState } from "react";
 import { Controller } from "react-hook-form";
 import { twMerge } from "tailwind-merge";
 
@@ -11,11 +10,13 @@ export default function Home() {
   const {
     filterSelected,
     showPreviewButton,
+    formState,
     control,
-    trigger,
     handleNextVerb,
     handlePreviewVerb,
     handleFielterVerbs,
+    handleIsValidField,
+    handleDebounceTriggerError,
   } = useIrregularVerbs();
 
   const navClassName =
@@ -60,7 +61,7 @@ export default function Home() {
             {...restField}
             onChange={(e) => {
               onChange(e);
-              trigger("infinitive");
+              handleDebounceTriggerError("infinitive");
             }}
             placeholder="Infinitive"
             subtitle="Infinitive"
@@ -78,11 +79,12 @@ export default function Home() {
             {...restField}
             onChange={(e) => {
               onChange(e);
-              trigger("simplePast");
+              handleDebounceTriggerError("simplePast");
             }}
             placeholder="Simple past"
             subtitle="Simple past"
             error={fieldState?.error?.message}
+            disabled={!handleIsValidField('infinitive')}
           />
         )}
       />
@@ -95,11 +97,12 @@ export default function Home() {
             {...restField}
             onChange={(e) => {
               onChange(e);
-              trigger("pastParticiple");
+              handleDebounceTriggerError("pastParticiple");
             }}
             placeholder="Past participle"
             subtitle="Past participle"
             error={fieldState?.error?.message}
+            disabled={!handleIsValidField('simplePast')}
           />
         )}
       />

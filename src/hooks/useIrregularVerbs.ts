@@ -4,6 +4,7 @@ import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { useDebouncedCallback } from 'use-debounce'
 import irregular_verbs from "@verbs/data/irregular_verbs.json";
 
 type ToZodObjectSchema<Type> = {
@@ -25,9 +26,12 @@ type IrregularVerbForm = TIrregularVerb & {
   PAST_PARTICIPLE: string;
 };
 
-const compareProps = (inputed: string | unknown, reference: string | unknown) =>
-  String(inputed).trim().toLowerCase() ===
-  String(reference).trim().toLowerCase();
+const compareProps = (inputed: string | unknown, reference: string | unknown) => {
+  if(!String(inputed)?.trim()){
+    return true
+  }
+  return String(inputed).trim().toLowerCase() ===  String(reference).trim().toLowerCase();
+}
 
 const irregularVerbSchema = z
   .object<ToZodObjectSchema<IrregularVerbForm>>({
@@ -43,7 +47,6 @@ const irregularVerbSchema = z
   })
   .refine(
     ({ infinitive, INFINITIVE }) => {
-      console.log(infinitive, INFINITIVE);
       return compareProps(infinitive, INFINITIVE);
     },
     (arg) => ({ path: ["infinitive"], message: String(arg.INFINITIVE) })
@@ -62,9 +65,9 @@ const irregularVerbSchema = z
   );
 
 export default function useIrregularVerbs() {
-  const { control, formState, reset, setValue, getValues, trigger } =
+  const { control, formState, reset, setValue, getValues, trigger, getFieldState } =
     useForm<IrregularVerbForm>({
-      mode: "onTouched",
+      mode: "onSubmit",
       resolver: zodResolver(irregularVerbSchema),
       defaultValues: {
         id: "",
@@ -97,6 +100,11 @@ export default function useIrregularVerbs() {
     [filterSelected]
   );
 
+  const handleDebounceTriggerError = useDebouncedCallback(
+    useCallback((field: keyof IrregularVerbForm)  => {
+      trigger(field)
+  }, [trigger]), 1000)
+
   const handlePreviewVerb = useCallback(() => {
     setCurrentVerbIndex((index) => (index > 0 ? index - 1 : index));
   }, []);
@@ -125,6 +133,10 @@ export default function useIrregularVerbs() {
     (filter: "moreUsed" | "all") => setFilterSelected(filter),
     []
   );
+
+  const handleIsValidField = useCallback((field: keyof IrregularVerbForm) => {
+    return Boolean(getFieldState(field).isDirty && !getFieldState(field).invalid)
+  }, [getFieldState])
 
   useEffect(() => {
     const verb = irregularVerbsFilterd[currentVerbIndex];
@@ -166,5 +178,8 @@ export default function useIrregularVerbs() {
     handlePreviewVerb,
     handleFielterVerbs,
     trigger,
+    getFieldState,
+    handleIsValidField,
+    handleDebounceTriggerError,
   };
 }
