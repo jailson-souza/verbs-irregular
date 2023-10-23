@@ -65,7 +65,6 @@ export default function Home() {
             placeholder="Infinitive"
             subtitle="Infinitive"
             error={fieldState?.error?.message}
-            valid={!fieldState?.invalid}
           />
         )}
       />
