@@ -66,7 +66,6 @@ export default function useIrregularVerbs() {
     control,
     formState,
     reset,
-    setValue,
     getValues,
     trigger,
     getFieldState,
